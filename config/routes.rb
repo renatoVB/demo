@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
-  get 'pages/contact'
+  get 'images/create'
 
-  root 'pages#index'
+  get 'images/update'
 
-  get 'pages/index'
+  get 'images/delete'
 
-  get 'pages/about'
+  get 'images/index'
 
+  get 'images/profile'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
